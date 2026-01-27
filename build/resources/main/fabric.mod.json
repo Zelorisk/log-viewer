@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "log-viewer",
+  "version": "1.0.0",
+  "name": "Log Viewer",
+  "description": "Real-time in-game log viewer with a sleek terminal-style GUI",
+  "authors": ["LogViewer Dev"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/logviewer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.logviewer.LogViewerMod"],
+    "client": ["dev.logviewer.client.LogViewerClient"]
+  },
+  "mixins": ["log-viewer.client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

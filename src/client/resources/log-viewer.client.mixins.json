@@ -1,0 +1,11 @@
+{
+    "required": true,
+    "package": "dev.logviewer.client.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "client": [
+        "MouseHandlerMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
