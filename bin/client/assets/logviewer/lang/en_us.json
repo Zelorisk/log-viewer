@@ -1,0 +1,17 @@
+{
+  "key.logviewer.toggle": "Toggle Log Viewer",
+  "key.logviewer.mouse": "Toggle Mouse Control",
+  "key.logviewer.category": "Log Viewer",
+  "logviewer.screen.title": "Log Viewer",
+  "logviewer.filter.all": "ALL",
+  "logviewer.filter.info": "INFO",
+  "logviewer.filter.warn": "WARN",
+  "logviewer.filter.error": "ERROR",
+  "logviewer.filter.debug": "DEBUG",
+  "logviewer.button.clear": "Clear",
+  "logviewer.button.export": "Export",
+  "logviewer.button.autoscroll": "Auto-scroll",
+  "logviewer.search.placeholder": "Search logs...",
+  "logviewer.status.lines": "Lines: %d",
+  "logviewer.status.filtered": "Showing: %d / %d"
+}
