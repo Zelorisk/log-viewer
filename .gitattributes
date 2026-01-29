@@ -1,2 +1,17 @@
 *.java linguist-detectable=true
-*.html linguist-detectable=false
+
+gradlew linguist-generated=true
+gradlew.bat linguist-generated=true
+gradle/wrapper/* linguist-vendored=true
+*.gradle linguist-vendored=true
+*.gradle.kts linguist-vendored=true
+
+*.json linguist-detectable=false
+
+src/main/generated/* linguist-generated=true
+src/generated/* linguist-generated=true
+
+build/* linguist-generated=true
+.gradle/* linguist-generated=true
+
+*.html linguist-documentation=true
